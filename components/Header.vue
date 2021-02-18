@@ -7,10 +7,9 @@
                   <h1>LOGO</h1>
               </div>
               <ul class="text-white w-full flex flex-grow justify-around">
-              <li>One</li>
-              <li>Two</li>
-              <li>Three</li>
-              <li>Four</li>
+              <nuxt-link to="/about">About</nuxt-link>
+               <nuxt-link to="/posts">Posts</nuxt-link>
+              <nuxt-link to="/admin">Admin</nuxt-link>
           </ul>
           </div>
           <div class="flex md:hidden">
